@@ -1,0 +1,537 @@
+$date
+	Fri Oct 30 00:04:50 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_key_expansion $end
+$var wire 1408 ! round_keys [1407:0] $end
+$var reg 128 " key [127:0] $end
+$scope module dut $end
+$var wire 128 # key [127:0] $end
+$var wire 1408 $ round_keys [1407:0] $end
+$scope function rcon $end
+$var integer 32 % r [31:0] $end
+$upscope $end
+$scope begin pack_keys[0] $end
+$var parameter 2 & r $end
+$upscope $end
+$scope begin pack_keys[1] $end
+$var parameter 2 ' r $end
+$upscope $end
+$scope begin pack_keys[2] $end
+$var parameter 3 ( r $end
+$upscope $end
+$scope begin pack_keys[3] $end
+$var parameter 3 ) r $end
+$upscope $end
+$scope begin pack_keys[4] $end
+$var parameter 4 * r $end
+$upscope $end
+$scope begin pack_keys[5] $end
+$var parameter 4 + r $end
+$upscope $end
+$scope begin pack_keys[6] $end
+$var parameter 4 , r $end
+$upscope $end
+$scope begin pack_keys[7] $end
+$var parameter 4 - r $end
+$upscope $end
+$scope begin pack_keys[8] $end
+$var parameter 5 . r $end
+$upscope $end
+$scope begin pack_keys[9] $end
+$var parameter 5 / r $end
+$upscope $end
+$scope begin pack_keys[10] $end
+$var parameter 5 0 r $end
+$upscope $end
+$scope begin round_gen[1] $end
+$var wire 32 1 rotated [31:0] $end
+$var parameter 2 2 r $end
+$scope begin sbox_gen[0] $end
+$var parameter 2 3 b $end
+$scope module sbox $end
+$var wire 8 4 in [7:0] $end
+$var reg 8 5 out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[1] $end
+$var parameter 2 6 b $end
+$scope module sbox $end
+$var wire 8 7 in [7:0] $end
+$var reg 8 8 out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[2] $end
+$var parameter 3 9 b $end
+$scope module sbox $end
+$var wire 8 : in [7:0] $end
+$var reg 8 ; out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[3] $end
+$var parameter 3 < b $end
+$scope module sbox $end
+$var wire 8 = in [7:0] $end
+$var reg 8 > out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin round_gen[2] $end
+$var wire 32 ? rotated [31:0] $end
+$var parameter 3 @ r $end
+$scope begin sbox_gen[0] $end
+$var parameter 2 A b $end
+$scope module sbox $end
+$var wire 8 B in [7:0] $end
+$var reg 8 C out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[1] $end
+$var parameter 2 D b $end
+$scope module sbox $end
+$var wire 8 E in [7:0] $end
+$var reg 8 F out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[2] $end
+$var parameter 3 G b $end
+$scope module sbox $end
+$var wire 8 H in [7:0] $end
+$var reg 8 I out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[3] $end
+$var parameter 3 J b $end
+$scope module sbox $end
+$var wire 8 K in [7:0] $end
+$var reg 8 L out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin round_gen[3] $end
+$var wire 32 M rotated [31:0] $end
+$var parameter 3 N r $end
+$scope begin sbox_gen[0] $end
+$var parameter 2 O b $end
+$scope module sbox $end
+$var wire 8 P in [7:0] $end
+$var reg 8 Q out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[1] $end
+$var parameter 2 R b $end
+$scope module sbox $end
+$var wire 8 S in [7:0] $end
+$var reg 8 T out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[2] $end
+$var parameter 3 U b $end
+$scope module sbox $end
+$var wire 8 V in [7:0] $end
+$var reg 8 W out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[3] $end
+$var parameter 3 X b $end
+$scope module sbox $end
+$var wire 8 Y in [7:0] $end
+$var reg 8 Z out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin round_gen[4] $end
+$var wire 32 [ rotated [31:0] $end
+$var parameter 4 \ r $end
+$scope begin sbox_gen[0] $end
+$var parameter 2 ] b $end
+$scope module sbox $end
+$var wire 8 ^ in [7:0] $end
+$var reg 8 _ out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[1] $end
+$var parameter 2 ` b $end
+$scope module sbox $end
+$var wire 8 a in [7:0] $end
+$var reg 8 b out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[2] $end
+$var parameter 3 c b $end
+$scope module sbox $end
+$var wire 8 d in [7:0] $end
+$var reg 8 e out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[3] $end
+$var parameter 3 f b $end
+$scope module sbox $end
+$var wire 8 g in [7:0] $end
+$var reg 8 h out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin round_gen[5] $end
+$var wire 32 i rotated [31:0] $end
+$var parameter 4 j r $end
+$scope begin sbox_gen[0] $end
+$var parameter 2 k b $end
+$scope module sbox $end
+$var wire 8 l in [7:0] $end
+$var reg 8 m out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[1] $end
+$var parameter 2 n b $end
+$scope module sbox $end
+$var wire 8 o in [7:0] $end
+$var reg 8 p out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[2] $end
+$var parameter 3 q b $end
+$scope module sbox $end
+$var wire 8 r in [7:0] $end
+$var reg 8 s out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[3] $end
+$var parameter 3 t b $end
+$scope module sbox $end
+$var wire 8 u in [7:0] $end
+$var reg 8 v out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin round_gen[6] $end
+$var wire 32 w rotated [31:0] $end
+$var parameter 4 x r $end
+$scope begin sbox_gen[0] $end
+$var parameter 2 y b $end
+$scope module sbox $end
+$var wire 8 z in [7:0] $end
+$var reg 8 { out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[1] $end
+$var parameter 2 | b $end
+$scope module sbox $end
+$var wire 8 } in [7:0] $end
+$var reg 8 ~ out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[2] $end
+$var parameter 3 !" b $end
+$scope module sbox $end
+$var wire 8 "" in [7:0] $end
+$var reg 8 #" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[3] $end
+$var parameter 3 $" b $end
+$scope module sbox $end
+$var wire 8 %" in [7:0] $end
+$var reg 8 &" out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin round_gen[7] $end
+$var wire 32 '" rotated [31:0] $end
+$var parameter 4 (" r $end
+$scope begin sbox_gen[0] $end
+$var parameter 2 )" b $end
+$scope module sbox $end
+$var wire 8 *" in [7:0] $end
+$var reg 8 +" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[1] $end
+$var parameter 2 ," b $end
+$scope module sbox $end
+$var wire 8 -" in [7:0] $end
+$var reg 8 ." out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[2] $end
+$var parameter 3 /" b $end
+$scope module sbox $end
+$var wire 8 0" in [7:0] $end
+$var reg 8 1" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[3] $end
+$var parameter 3 2" b $end
+$scope module sbox $end
+$var wire 8 3" in [7:0] $end
+$var reg 8 4" out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin round_gen[8] $end
+$var wire 32 5" rotated [31:0] $end
+$var parameter 5 6" r $end
+$scope begin sbox_gen[0] $end
+$var parameter 2 7" b $end
+$scope module sbox $end
+$var wire 8 8" in [7:0] $end
+$var reg 8 9" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[1] $end
+$var parameter 2 :" b $end
+$scope module sbox $end
+$var wire 8 ;" in [7:0] $end
+$var reg 8 <" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[2] $end
+$var parameter 3 =" b $end
+$scope module sbox $end
+$var wire 8 >" in [7:0] $end
+$var reg 8 ?" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[3] $end
+$var parameter 3 @" b $end
+$scope module sbox $end
+$var wire 8 A" in [7:0] $end
+$var reg 8 B" out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin round_gen[9] $end
+$var wire 32 C" rotated [31:0] $end
+$var parameter 5 D" r $end
+$scope begin sbox_gen[0] $end
+$var parameter 2 E" b $end
+$scope module sbox $end
+$var wire 8 F" in [7:0] $end
+$var reg 8 G" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[1] $end
+$var parameter 2 H" b $end
+$scope module sbox $end
+$var wire 8 I" in [7:0] $end
+$var reg 8 J" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[2] $end
+$var parameter 3 K" b $end
+$scope module sbox $end
+$var wire 8 L" in [7:0] $end
+$var reg 8 M" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[3] $end
+$var parameter 3 N" b $end
+$scope module sbox $end
+$var wire 8 O" in [7:0] $end
+$var reg 8 P" out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin round_gen[10] $end
+$var wire 32 Q" rotated [31:0] $end
+$var parameter 5 R" r $end
+$scope begin sbox_gen[0] $end
+$var parameter 2 S" b $end
+$scope module sbox $end
+$var wire 8 T" in [7:0] $end
+$var reg 8 U" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[1] $end
+$var parameter 2 V" b $end
+$scope module sbox $end
+$var wire 8 W" in [7:0] $end
+$var reg 8 X" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[2] $end
+$var parameter 3 Y" b $end
+$scope module sbox $end
+$var wire 8 Z" in [7:0] $end
+$var reg 8 [" out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_gen[3] $end
+$var parameter 3 \" b $end
+$scope module sbox $end
+$var wire 8 ]" in [7:0] $end
+$var reg 8 ^" out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 \"
+b10 Y"
+b1 V"
+b0 S"
+b1010 R"
+b11 N"
+b10 K"
+b1 H"
+b0 E"
+b1001 D"
+b11 @"
+b10 ="
+b1 :"
+b0 7"
+b1000 6"
+b11 2"
+b10 /"
+b1 ,"
+b0 )"
+b111 ("
+b11 $"
+b10 !"
+b1 |
+b0 y
+b110 x
+b11 t
+b10 q
+b1 n
+b0 k
+b101 j
+b11 f
+b10 c
+b1 `
+b0 ]
+b100 \
+b11 X
+b10 U
+b1 R
+b0 O
+b11 N
+b11 J
+b10 G
+b1 D
+b0 A
+b10 @
+b11 <
+b10 9
+b1 6
+b0 3
+b1 2
+b1010 0
+b1001 /
+b1000 .
+b111 -
+b110 ,
+b101 +
+b100 *
+b11 )
+b10 (
+b1 '
+b0 &
+$end
+#0
+$dumpvars
+b10101110 ^"
+b10111110 ]"
+b101111 ["
+b1001110 Z"
+b10001000 X"
+b10010111 W"
+b1110001 U"
+b101100 T"
+b101100100101110100111010111110 Q"
+b11100100 P"
+b10101110 O"
+b10110101 M"
+b11010010 L"
+b11011010 J"
+b1111010 I"
+b1000 G"
+b10111111 F"
+b10111111011110101101001010101110 C"
+b101111 B"
+b1001110 A"
+b11110111 ?"
+b100110 >"
+b10111010 <"
+b11000000 ;"
+b11010011 9"
+b10101001 8"
+b10101001110000000010011001001110 5"
+b1100111 4"
+b1010 3"
+b1111111 1"
+b1101011 0"
+b11000000 ."
+b11111 -"
+b1010 +"
+b10100011 *"
+b10100011000111110110101100001010 '"
+b10010101 &"
+b10101101 %"
+b10101100 #"
+b10101010 ""
+b10010011 ~
+b100010 }
+b1000010 {
+b11110110 z
+b11110110001000101010101010101101 w
+b1010100 v
+b11111101 u
+b1010100 s
+b11111101 r
+b1011101 p
+b10001101 o
+b1101011 m
+b101 l
+b101100011011111110111111101 i
+b11110010 h
+b100 g
+b10000011 e
+b1000001 d
+b1000 b
+b10111111 a
+b11111001 _
+b1101001 ^
+b1101001101111110100000100000100 [
+b1000101 Z
+b1101000 Y
+b10111011 W
+b11111110 V
+b1101101 T
+b10110011 S
+b100 Q
+b110000 P
+b110000101100111111111001101000 M
+b11110110 L
+b11010110 K
+b10111011 I
+b11111110 H
+b111000 F
+b1110110 E
+b1100010 C
+b10101011 B
+b10101011011101101111111011010110 ?
+b11111110 >
+b1100 =
+b1110110 ;
+b1111 :
+b10101011 8
+b1110 7
+b11010111 5
+b1101 4
+b1101000011100000111100001100 1
+b1010 %
+b1000000100000001100000100000001010000011000000111000010000000100100001010000010110000110000001101000011100000111111010110101010100111010011111101110100101010111101110010111110101101101010100110011110001111000111010110101010110111011011111110101101101001001011001111000010110110010000111101101111011111000110111110100110111100010100000000011010000011000010110011111111101011011011111111011101000100111011010010110000101100100110111111011011000101100100001100101111110000010001101001101111110100000101000111111101111111011110111100100101010011010100111110000000111111100101101100001100101011110011111101000001011000110111111101001111001010101010100011111010001010100110011111100111011110101101010000111100111010111101010111101011011111011000100010101010100101111000111001000011110111110111110111101001101001001010010110101001110101010100111101110000010000101010100011000111110110101100010100111110010111000000011010111000110101111111100010100011000100010000001010110111110100110101001110101010011100000000100110010001110100001110000111001101011010010000011100011001011011100111100000000101101011101011110100101011101011111101111010110100100101010010011001001100101101000111110000100001010101011101101000000100001001001111101101100111001011111000101100100101110100111000010011000100010001110101111111111000111001010001001010000101111111001100000111101001111000101101001101001010110011000011000101 $
+b10000001000000011000001000000010100000110000001110000100000001001000010100000101100001100000011010000111000001111 #
+b10000001000000011000001000000010100000110000001110000100000001001000010100000101100001100000011010000111000001111 "
+b1000000100000001100000100000001010000011000000111000010000000100100001010000010110000110000001101000011100000111111010110101010100111010011111101110100101010111101110010111110101101101010100110011110001111000111010110101010110111011011111110101101101001001011001111000010110110010000111101101111011111000110111110100110111100010100000000011010000011000010110011111111101011011011111111011101000100111011010010110000101100100110111111011011000101100100001100101111110000010001101001101111110100000101000111111101111111011110111100100101010011010100111110000000111111100101101100001100101011110011111101000001011000110111111101001111001010101010100011111010001010100110011111100111011110101101010000111100111010111101010111101011011111011000100010101010100101111000111001000011110111110111110111101001101001001010010110101001110101010100111101110000010000101010100011000111110110101100010100111110010111000000011010111000110101111111100010100011000100010000001010110111110100110101001110101010011100000000100110010001110100001110000111001101011010010000011100011001011011100111100000000101101011101011110100101011101011111101111010110100100101010010011001001100101101000111110000100001010101011101101000000100001001001111101101100111001011111000101100100101110100111000010011000100010001110101111111111000111001010001001010000101111111001100000111101001111000101101001101001010110011000011000101 !
+$end
+#10000

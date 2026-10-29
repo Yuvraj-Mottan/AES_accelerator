@@ -1,0 +1,189 @@
+$date
+	Fri Oct 30 00:02:17 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_sub_bytes $end
+$var wire 128 ! state_out [127:0] $end
+$var reg 128 " state_in [127:0] $end
+$scope module dut $end
+$var wire 128 # state_in [127:0] $end
+$var wire 128 $ state_out [127:0] $end
+$scope begin sbox_instances[0] $end
+$var parameter 2 % i $end
+$scope module sbox $end
+$var wire 8 & in [7:0] $end
+$var reg 8 ' out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[1] $end
+$var parameter 2 ( i $end
+$scope module sbox $end
+$var wire 8 ) in [7:0] $end
+$var reg 8 * out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[2] $end
+$var parameter 3 + i $end
+$scope module sbox $end
+$var wire 8 , in [7:0] $end
+$var reg 8 - out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[3] $end
+$var parameter 3 . i $end
+$scope module sbox $end
+$var wire 8 / in [7:0] $end
+$var reg 8 0 out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[4] $end
+$var parameter 4 1 i $end
+$scope module sbox $end
+$var wire 8 2 in [7:0] $end
+$var reg 8 3 out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[5] $end
+$var parameter 4 4 i $end
+$scope module sbox $end
+$var wire 8 5 in [7:0] $end
+$var reg 8 6 out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[6] $end
+$var parameter 4 7 i $end
+$scope module sbox $end
+$var wire 8 8 in [7:0] $end
+$var reg 8 9 out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[7] $end
+$var parameter 4 : i $end
+$scope module sbox $end
+$var wire 8 ; in [7:0] $end
+$var reg 8 < out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[8] $end
+$var parameter 5 = i $end
+$scope module sbox $end
+$var wire 8 > in [7:0] $end
+$var reg 8 ? out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[9] $end
+$var parameter 5 @ i $end
+$scope module sbox $end
+$var wire 8 A in [7:0] $end
+$var reg 8 B out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[10] $end
+$var parameter 5 C i $end
+$scope module sbox $end
+$var wire 8 D in [7:0] $end
+$var reg 8 E out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[11] $end
+$var parameter 5 F i $end
+$scope module sbox $end
+$var wire 8 G in [7:0] $end
+$var reg 8 H out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[12] $end
+$var parameter 5 I i $end
+$scope module sbox $end
+$var wire 8 J in [7:0] $end
+$var reg 8 K out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[13] $end
+$var parameter 5 L i $end
+$scope module sbox $end
+$var wire 8 M in [7:0] $end
+$var reg 8 N out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[14] $end
+$var parameter 5 O i $end
+$scope module sbox $end
+$var wire 8 P in [7:0] $end
+$var reg 8 Q out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin sbox_instances[15] $end
+$var parameter 5 R i $end
+$scope module sbox $end
+$var wire 8 S in [7:0] $end
+$var reg 8 T out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1111 R
+b1110 O
+b1101 L
+b1100 I
+b1011 F
+b1010 C
+b1001 @
+b1000 =
+b111 :
+b110 7
+b101 4
+b100 1
+b11 .
+b10 +
+b1 (
+b0 %
+$end
+#0
+$dumpvars
+b1100011 T
+b0 S
+b1111100 Q
+b1 P
+b11101101 N
+b1010011 M
+b10110 K
+b11111111 J
+b11001010 H
+b10000 G
+b10110111 E
+b100000 D
+b100 B
+b110000 A
+b1001 ?
+b1000000 >
+b1010011 <
+b1010000 ;
+b11010000 9
+b1100000 8
+b1010001 6
+b1110000 5
+b11001101 3
+b10000000 2
+b1100000 0
+b10010000 /
+b11100000 -
+b10100000 ,
+b11100111 *
+b10110000 )
+b10111010 '
+b11000000 &
+b1100011011111001110110100010110110010101011011100000100000010010101001111010000010100011100110101100000111000001110011110111010 $
+b10101001111111111000100000010000000110000010000000101000001100000011100001000000010010000101000001011000011000000 #
+b10101001111111111000100000010000000110000010000000101000001100000011100001000000010010000101000001011000011000000 "
+b1100011011111001110110100010110110010101011011100000100000010010101001111010000010100011100110101100000111000001110011110111010 !
+$end
+#10000
