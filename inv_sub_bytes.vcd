@@ -1,0 +1,226 @@
+$date
+	Sat Oct 31 16:25:16 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_inv_sub_bytes $end
+$var wire 128 ! state_out [127:0] $end
+$var reg 128 " state_in [127:0] $end
+$scope module dut $end
+$var wire 128 # state_in [127:0] $end
+$var wire 128 $ state_out [127:0] $end
+$scope begin inv_sbox_gen[0] $end
+$var parameter 2 % i $end
+$scope module sbox $end
+$var wire 8 & in [7:0] $end
+$var reg 8 ' out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[1] $end
+$var parameter 2 ( i $end
+$scope module sbox $end
+$var wire 8 ) in [7:0] $end
+$var reg 8 * out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[2] $end
+$var parameter 3 + i $end
+$scope module sbox $end
+$var wire 8 , in [7:0] $end
+$var reg 8 - out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[3] $end
+$var parameter 3 . i $end
+$scope module sbox $end
+$var wire 8 / in [7:0] $end
+$var reg 8 0 out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[4] $end
+$var parameter 4 1 i $end
+$scope module sbox $end
+$var wire 8 2 in [7:0] $end
+$var reg 8 3 out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[5] $end
+$var parameter 4 4 i $end
+$scope module sbox $end
+$var wire 8 5 in [7:0] $end
+$var reg 8 6 out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[6] $end
+$var parameter 4 7 i $end
+$scope module sbox $end
+$var wire 8 8 in [7:0] $end
+$var reg 8 9 out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[7] $end
+$var parameter 4 : i $end
+$scope module sbox $end
+$var wire 8 ; in [7:0] $end
+$var reg 8 < out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[8] $end
+$var parameter 5 = i $end
+$scope module sbox $end
+$var wire 8 > in [7:0] $end
+$var reg 8 ? out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[9] $end
+$var parameter 5 @ i $end
+$scope module sbox $end
+$var wire 8 A in [7:0] $end
+$var reg 8 B out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[10] $end
+$var parameter 5 C i $end
+$scope module sbox $end
+$var wire 8 D in [7:0] $end
+$var reg 8 E out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[11] $end
+$var parameter 5 F i $end
+$scope module sbox $end
+$var wire 8 G in [7:0] $end
+$var reg 8 H out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[12] $end
+$var parameter 5 I i $end
+$scope module sbox $end
+$var wire 8 J in [7:0] $end
+$var reg 8 K out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[13] $end
+$var parameter 5 L i $end
+$scope module sbox $end
+$var wire 8 M in [7:0] $end
+$var reg 8 N out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[14] $end
+$var parameter 5 O i $end
+$scope module sbox $end
+$var wire 8 P in [7:0] $end
+$var reg 8 Q out [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin inv_sbox_gen[15] $end
+$var parameter 5 R i $end
+$scope module sbox $end
+$var wire 8 S in [7:0] $end
+$var reg 8 T out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1111 R
+b1110 O
+b1101 L
+b1100 I
+b1011 F
+b1010 C
+b1001 @
+b1000 =
+b111 :
+b110 7
+b101 4
+b100 1
+b11 .
+b10 +
+b1 (
+b0 %
+$end
+#0
+$dumpvars
+b0 T
+b1100011 S
+b0 Q
+b1100011 P
+b0 N
+b1100011 M
+b0 K
+b1100011 J
+b0 H
+b1100011 G
+b0 E
+b1100011 D
+b0 B
+b1100011 A
+b0 ?
+b1100011 >
+b0 <
+b1100011 ;
+b0 9
+b1100011 8
+b0 6
+b1100011 5
+b0 3
+b1100011 2
+b0 0
+b1100011 /
+b0 -
+b1100011 ,
+b0 *
+b1100011 )
+b0 '
+b1100011 &
+b0 $
+b1100011011000110110001101100011011000110110001101100011011000110110001101100011011000110110001101100011011000110110001101100011 #
+b1100011011000110110001101100011011000110110001101100011011000110110001101100011011000110110001101100011011000110110001101100011 "
+b0 !
+$end
+#10000
+b1010011 '
+b1010011 *
+b1010011 -
+b1010011 0
+b1010011 3
+b1010011 6
+b1010011 9
+b1010011 <
+b1010011 ?
+b1010011 B
+b1010011 E
+b1010011 H
+b1010011 K
+b1010011 N
+b1010011 Q
+b1010011010100110101001101010011010100110101001101010011010100110101001101010011010100110101001101010011010100110101001101010011 !
+b1010011010100110101001101010011010100110101001101010011010100110101001101010011010100110101001101010011010100110101001101010011 $
+b1010011 T
+b11101101 &
+b11101101 )
+b11101101 ,
+b11101101 /
+b11101101 2
+b11101101 5
+b11101101 8
+b11101101 ;
+b11101101 >
+b11101101 A
+b11101101 D
+b11101101 G
+b11101101 J
+b11101101 M
+b11101101 P
+b11101101 S
+b11101101111011011110110111101101111011011110110111101101111011011110110111101101111011011110110111101101111011011110110111101101 "
+b11101101111011011110110111101101111011011110110111101101111011011110110111101101111011011110110111101101111011011110110111101101 #
+#20000

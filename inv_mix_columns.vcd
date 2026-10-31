@@ -1,0 +1,59 @@
+$date
+	Sat Oct 31 16:27:41 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_inv_mix_columns $end
+$var wire 128 ! state_out [127:0] $end
+$var reg 128 " state_in [127:0] $end
+$scope module dut $end
+$var wire 128 # state_in [127:0] $end
+$var wire 128 $ state_out [127:0] $end
+$scope function gf_mul $end
+$var reg 8 % a [7:0] $end
+$var reg 8 & b [7:0] $end
+$var reg 8 ' result [7:0] $end
+$var reg 8 ( temp_a [7:0] $end
+$var reg 8 ) temp_b [7:0] $end
+$var integer 32 * i [31:0] $end
+$upscope $end
+$scope function inv_mix_column $end
+$var reg 8 + a0 [7:0] $end
+$var reg 8 , a1 [7:0] $end
+$var reg 8 - a2 [7:0] $end
+$var reg 8 . a3 [7:0] $end
+$var reg 32 / col [31:0] $end
+$upscope $end
+$scope function xtime $end
+$var reg 8 0 a [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10110011 0
+b10001110010011011010000110111100 /
+b10111100 .
+b10100001 -
+b1001101 ,
+b10001110 +
+b1000 *
+b0 )
+b1111101 (
+b110010 '
+b1110 &
+b10111100 %
+b11011011000100110101001101000101111100100000101000100010010111000000000100000001000000010000000111000110110001101100011011000110 $
+b10001110010011011010000110111100100111111101110001011000100111010000000100000001000000010000000111000110110001101100011011000110 #
+b10001110010011011010000110111100100111111101110001011000100111010000000100000001000000010000000111000110110001101100011011000110 "
+b11011011000100110101001101000101111100100000101000100010010111000000000100000001000000010000000111000110110001101100011011000110 !
+$end
+#10000
